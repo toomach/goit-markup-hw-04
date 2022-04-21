@@ -275,16 +275,18 @@
   .item-team-ul-li-a {
     width: 44px;
     height: 44px;
-    background-color: tomato;
+    background-color: #ffffff;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+    fill: #AFB1B8;
   }
 
-  .item-team-icon {
-    fill: #000000;
-  }
+  .item-team-ul-li-a:hover {
+    background-color: #2196f3;
+    fill: #ffffff;
+  } 
   
 /* -----------------чем мы занимаемся--------------------- */
 
