@@ -94,6 +94,8 @@
   .button-secondary:focus {
     background: var(--accent-color);
     color: var(--main-text-color-light);
+    box-shadow: 0 3px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.08),
+        0 2px 2px 0 rgba(0, 0, 0, 0.12);
   }
   
   .section {
@@ -258,15 +260,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 120px;
   }
-
-  .advantages-icon {
-    margin: 25px 100px 25px 100px;
-  }
-
-  .img-advantages-list-li:not(:last-child) {
-    margin-right: 30px;
-  } 
   
   .advantages-list {
     display: flex;
@@ -326,10 +321,6 @@
   } 
   
 /* -----------------чем мы занимаемся--------------------- */
-
-  .example {
-    padding-top: 0;
-  }
   
   .examples-list {
     display: flex;
@@ -376,13 +367,11 @@
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
+    margin-bottom: 16px;
     color: var(--secondary-text-color-dark);
   }
 
   /* ---------------клиенты------------------ */
-  .customer {
-    padding-top: 94px;
-  }
 
   .customer-list {
     display: flex;
@@ -466,13 +455,13 @@
 
   .portfolio-link {
     display: block;
-    box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+    
   }
 
   .portfolio-link:hover,
   .portfolio-link:focus {
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12), 0 4px 4px 0 rgba(0, 0, 0, 0.06),
-    1px 4px 6px 0 rgba(0, 0, 0, 0.16);
+    1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px rgb(0 0 0 / 25%);
   }
   
   .portfolio-list .item-descr {
@@ -539,6 +528,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin-bottom: 20px;
   }
 
   .footer-list {
@@ -550,7 +540,6 @@
   }
 
   .item-footer-ul-li-a {
-    margin-top: 20px;
     width: 44px;
     height: 44px;
     background-color: rgba(255, 255, 255, 0.1);
