@@ -431,7 +431,7 @@ color: #F4F4FD;
 }
 
 .footer-container-logo {
-
+    margin-right: 120px;
 }
 
 .footer-logo {
@@ -458,7 +458,6 @@ color: #F4F4FD;
 }
 
 .footer-container-social {
-    margin-left: 120px;
 }
 
 .footer-paragraph-social {
@@ -468,6 +467,7 @@ color: #F4F4FD;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-bottom: 16px;
 }
 
 .footer-item-svg {
@@ -475,7 +475,6 @@ color: #F4F4FD;
     justify-content: center;
     align-items: center;
     gap: 16px;
-    margin-top: 8px;
 }
 
 .footer-list-svg {
