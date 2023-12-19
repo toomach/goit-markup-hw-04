@@ -152,9 +152,10 @@ body {
     padding: 188px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/hero.jpg);
     max-width: 1440px;
-        background-repeat: no-repeat;
-        background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
+    margin: 0 auto;
 }
 
 .solution-header {
@@ -369,7 +370,7 @@ padding: 32px 0;
 .overlay {
     position: absolute;
     top: 0;
-color: #F4F4FD;
+    color: #F4F4FD;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
